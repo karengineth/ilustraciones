@@ -1,0 +1,64 @@
+.grupos{
+    width: 250px;
+    margin: 15px;
+    background-color: white;
+    padding: 10px;
+    
+}
+.fotos{
+    width: 250px;
+    height: 250px;
+}
+section{
+    margin: auto;
+    display: flex;
+    width: 1200px;
+}
+body{
+    background-color: black;
+}
+.galeria{
+    display: flex;
+}
+.a1{
+    background-image: url(paisaje.jpg);
+    background-size: cover contain;
+    background-position: center;
+}
+.a2{
+    background-image: url(arte.jpg);
+    background-size: cover contain;
+    background-position:center;
+}
+.a3{
+    background-image: url(noche\ estrellada.jpg);
+    background-size: cover contain;
+    background-position: center;
+}
+.a4{
+    background-image: url(terraza.jpg);
+    background-size: cover contain;
+    background-position: center;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    background-image: url(fondo.jpg);
+    background-size: cover contain;
+    background-position: center;
+    padding: 80px;
+    font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+footer{
+    color: white;
+    text-align: center;
+    padding: 80px;
+    background-image: url(fondo.jpg);
+}
+.grupos:hover{
+    background-color: cornflowerblue;
+    transition: 1s;
+}
